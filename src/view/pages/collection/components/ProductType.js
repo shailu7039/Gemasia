@@ -24,7 +24,7 @@ export const ProductType = () => {
             <div className='flex justify-center items-center gap-10'>
                 <img className='h-650px' src={require("../../../assets/images/cdiamond.jpg")} alt='' data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200" />
                 <div className="lg:w-1/2 md:w-1/2 lg:pt-0 md:pt-0 pt-5" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">
-                    <h5 className="lg:text-2xl font-semibold pb-5">Certified Diamondsshailesh
+                    <h5 className="lg:text-2xl font-semibold pb-5">Certified Diamonds
                     </h5>
                     {/* <h2 className="lg:text-4xl md:text-2xl text-2xl py-2 font-semibold">Earring</h2> */}
                     {/* <h4 className="lg:text-2xl md:text-xl font-semibold">Unparalleled Quality, Unrestricted Creativity</h4> */}
