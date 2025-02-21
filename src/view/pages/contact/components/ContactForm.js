@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Input, Textarea } from "@chakra-ui/react";
 import { Building2, MailIcon, Phone } from "lucide-react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import axios from "axios"; // If using axios
 
 export const ContactForm = () => {
@@ -104,7 +104,7 @@ export const ContactForm = () => {
                 <Building2 className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />
                 <p className="lg:text-xl md:text-xl text-lg">Address</p>
               </div>
-              <p className="pt-2 text-666666">Antwerp, Belgium</p>
+              <p className="pt-2 text-666666">Gemasia B.V.B.A Hoveniersstraat 53,<br/> Office 314 P.Box 49 2018  <br/>Antwerp, Belgium</p>
             </div>
             <div className="flex items-center gap-2 pt-5">
               <Phone className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />

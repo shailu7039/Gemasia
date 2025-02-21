@@ -11,14 +11,14 @@ import {
     ModalBody,
     ModalCloseButton,
     useDisclosure,
-    Button,
+    // Button,
     FormControl,
     FormLabel
   } from '@chakra-ui/react'
 export const ProductType = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const initialRef = React.useRef(null)
-  const finalRef = React.useRef(null)
+    const finalRef = React.useRef(null)
     return (
         <div className='py-16'>
             <div className='flex justify-center items-center gap-10'>

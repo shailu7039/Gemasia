@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Select } from '@chakra-ui/react'
+// import { Select } from '@chakra-ui/react'
 import { CollectionBanner } from './CollectionBanner'
 export const NonCertifiedDiamond = () => {
   return (

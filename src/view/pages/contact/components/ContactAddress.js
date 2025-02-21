@@ -27,7 +27,7 @@ export const ContactAddress = () => {
         className="flex justify-center m-auto lg:py-20 md:py-10 py-8"
         data-aos="zoom-in"
       >
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159791.75933951497!2d4.1929720600328295!3d51.26058146521626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f68ebfc3887d%3A0x3eaf448482a88ab8!2sAntwerp%2C%20Belgium!5e0!3m2!1sen!2sin!4v1739517341841!5m2!1sen!2sin" width="1200" height="450" style={{}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.247983436896!2d4.414062292554123!3d51.21450725922028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f70251f2bab7%3A0x3761576ca5fdadbb!2sHoveniersstraat%2053%2F314%20p%2C%202018%20Antwerpen%2C%20Belgium!5e0!3m2!1sen!2sin!4v1739870758150!5m2!1sen!2sin" width="1200" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   );

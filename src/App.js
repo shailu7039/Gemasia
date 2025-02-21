@@ -1,5 +1,5 @@
 import { BrowserRouter as Router ,Routes,Route } from "react-router-dom";
-import React,{useEffect} from "react";
+import React,{} from "react";
 import { Navbar } from "./view/pages/navbar/Navbar";
 import { Footer } from "./view/pages/footer/Footer";
 import {Home} from "./view/pages/home/Home"
