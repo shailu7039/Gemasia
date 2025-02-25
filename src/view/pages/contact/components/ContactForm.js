@@ -48,51 +48,51 @@ export const ContactForm = () => {
           <div className="lg:w-1/2 md:w-1/2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
             <h2 className="tracking-widest lg:text-3xl md:text-3xl text-2xl">Tell Us Your Message</h2>
             <form onSubmit={handleSubmit}>
-              <div className="pt-5">
-                <label className="text-666666">Your Name</label>
-                <Input
-                  className="mt-1 custinputborder"
-                  placeholder="Please Enter First Name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="pt-5">
-                <label className="text-666666">Your Email</label>
-                <Input
-                  className="mt-1 custinputborder"
-                  placeholder="Please Enter Your Email"
-                  name="email"
-                  type="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="pt-5">
-                <label className="text-666666">Subject</label>
-                <Input
-                  className="mt-1 custinputborder"
-                  placeholder="Please Enter Subject"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="pt-5">
-                <label className="text-666666">Your Message</label>
-                <Textarea
-                  className="mt-1 custinputborder"
-                  placeholder="Please Enter Your Message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="pt-5">
-              <button type="submit" className="px-6 py-2 rounded-md bg-primary text-white">Send</button>
-              </div>
-            </form>
+      <div className="pt-5">
+        <label className="text-666666">Your Name</label>
+        <Input
+          className="mt-1 custinputborder"
+          placeholder="Please Enter First Name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+        />
+      </div>
+      <div className="pt-5">
+        <label className="text-666666">Your Email</label>
+        <Input
+          className="mt-1 custinputborder"
+          placeholder="Please Enter Your Email"
+          name="email"
+          type="email"
+          value={formData.email}
+          onChange={handleChange}
+        />
+      </div>
+      <div className="pt-5">
+        <label className="text-666666">Subject</label>
+        <Input
+          className="mt-1 custinputborder"
+          placeholder="Please Enter Subject"
+          name="subject"
+          value={formData.subject}
+          onChange={handleChange}
+        />
+      </div>
+      <div className="pt-5">
+        <label className="text-666666">Your Message</label>
+        <Textarea
+          className="mt-1 custinputborder"
+          placeholder="Please Enter Your Message"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+        />
+      </div>
+      <div className="pt-5">
+        <button type="submit" className="px-6 py-2 rounded-md bg-primary text-white">Send</button>
+      </div>
+    </form>
             {status && <p className="pt-5 text-green-500">{status}</p>}
           </div>
           <div className="lg:w-1/2 md:w-1/2 lg:pt-0 md:pt-0 pt-10" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">
