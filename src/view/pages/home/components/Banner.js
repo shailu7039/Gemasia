@@ -24,16 +24,16 @@ export const Banner = () => {
          <div className="relative">
        <div className="overflow-hidden">
        <img
-          className="w-full h-530px sm-h-200px object-cover brightness-75"
-          src={require("../../../assets/images/1.jpg")}
+          className="w-full h-530px sm-h-200px object-cover brightness-50"
+          src={require("../../../assets/images/1_optimized_100.png")}
         />
        </div>
 
-       <div className="centered-axis-xy">
+       <div className="centered-axis-xy-home">
        <div  data-aos="zoom-in" data-aos-duration="3000">
-          <h2 className="lg:text-3xl text-white text-center md:text-2xl text-xl tracking-widest uppercase">Masters in Diamonds, Specialists in Service.
+          <h2 className="lg:text-2xl md:text-xl text-lg text-white text-center tracking-widest uppercase">Masters in Diamonds, Specialists in Service.
           </h2>
-          <p className="text-center text-white uppercase pt-5 font-medium tracking-widest">With decades of experience and a global network, we offer perfectly sourced diamonds with unmatched quality and reliability.
+          <p className="text-center lg:text-base md:text-base text-sm text-white uppercase pt-5 font-medium tracking-widest text">With decades of experience and a global network,<br/> we offer perfectly sourced diamonds with unmatched quality and reliability.
           </p>
         </div>
        </div>
@@ -69,7 +69,7 @@ export const Banner = () => {
         <p data-aos="fade-up"
     //  data-aos-offset="300"
     data-aos-duration="3000"
-     className="text-lg m-auto pt-8 text-center w-2/3">Rooted in over five decades of excellence, Gemasia Antwerpen is a distinguished name in the global diamond industry. As the marketing arm of Asian Star Company Limited, we bring world-class diamonds to connoisseurs across 35+ countries, blending tradition with cutting-edge precision. Whether it’s certified brilliance or hand-selected diamonds, our collections cater to those who demand nothing but the best.
+     className="lg:text-lg md:text-lg text-base m-auto pt-8 text-center lg:w-2/3 md:w-2/3 lg:px-0 md:px-0 px-5 ">Rooted in over five decades of excellence, Gemasia Antwerpen is a distinguished name in the global diamond industry. As the marketing arm of Asian Star Company Limited, we bring world-class diamonds to connoisseurs across 35+ countries, blending tradition with cutting-edge precision. Whether it’s certified brilliance or hand-selected diamonds, our collections cater to those who demand nothing but the best.
         </p>
       </Swiper>
     </div>

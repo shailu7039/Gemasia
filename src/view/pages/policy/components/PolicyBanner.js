@@ -24,14 +24,14 @@ export const PolicyBanner = () => {
          <div className="relative">
        <div className="overflow-hidden">
        <img
-          className="w-full h-530px sm-h-200px object-cover brightness-75"
-          src={require("../../../assets/images/policybanner.jpg")}
+          className="w-full h-530px sm-h-200px object-cover brightness-50"
+          src={require("../../../assets/images/policybanner_optimized_100.jpg")}
         />
        </div>
 
        <div className="centered-axis-xy">
        <div  data-aos="zoom-in" data-aos-duration="3000">
-          <h2 className="lg:text-3xl text-white text-center md:text-2xl text-xl tracking-widest uppercase">Policy
+          <h2 className="lg:text-2xl md:text-xl text-lg text-white text-center tracking-widest uppercase">Policy
           </h2>
           {/* <p className="text-center text-white uppercase pt-5 font-medium tracking-widest">With decades of experience and a global network, we offer perfectly sourced diamonds with unmatched quality and reliability.
           </p> */}
@@ -69,7 +69,7 @@ export const PolicyBanner = () => {
         <p data-aos="fade-up"
     //  data-aos-offset="300"
     data-aos-duration="3000"
-     className="text-lg m-auto pt-8 text-center w-2/3">At Gemasia Antwerpen, we are committed to maintaining the highest standards of quality, ethics, and customer satisfaction. Our policies reflect our dedication to responsible business practices and transparency.
+     className="lg:text-lg md:text-lg text-base m-auto pt-8 text-center lg:w-2/3 md:w-2/3 lg:px-0 md:px-0 px-5">At Gemasia Antwerpen, we are committed to maintaining the highest standards of quality, ethics, and customer satisfaction. Our policies reflect our dedication to responsible business practices and transparency.
         </p>
       </Swiper>
     </div>

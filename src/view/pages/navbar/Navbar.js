@@ -62,7 +62,7 @@ export const Navbar = (props) => {
   }, []);
 
   return (
-    <nav className={`navbar fixed w-full zindex99 ${scrolling ? "shadow-lg" : ""}`}>
+    <nav className={`navbar p-2 fixed w-full zindex99 ${scrolling ? "shadow-lg" : ""}`}>
       <div className="m-auto mob-hidden">
         <Link to="/">
           <img
@@ -98,12 +98,12 @@ export const Navbar = (props) => {
                   <p className="text-lg tracking-widest">About</p>
                 </NavLink>
               </li>
-              {/* <li>
+              <li>
                 <NavLink to="/collection" onClick={handleMenuItemClick}>
                   <p className="text-lg tracking-widest">Our Product</p>
                 </NavLink>
-              </li> */}
-              <li>
+              </li>
+              {/* <li>
                 <Menu isLazy>
                   <MenuButton className="text-lg" >Our Product</MenuButton>
                   <MenuList>
@@ -114,10 +114,9 @@ export const Navbar = (props) => {
                     <NavLink to="/non-certified-diamond">
                     <MenuItem>Non-Certified Diamonds</MenuItem>
                     </NavLink>
-                    {/* <MenuItem>Open File</MenuItem> */}
                   </MenuList>
                 </Menu>
-              </li>
+              </li> */}
               <li>
                 <NavLink to="/policy" onClick={handleMenuItemClick}>
                   <p className="text-lg tracking-widest">Policy</p>

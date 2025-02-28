@@ -2,54 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicons.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="GEMASIA Antwerpen - Masters in Diamonds, Specialists in Service." />
+    <meta name="keywords" content="diamonds, gemstones, jewelry, Antwerp, global diamond industry, fine jewelry, diamond suppliers, luxury diamonds" />
+    <meta name="author" content="GEMASIA Antwerpen" />
+    <link rel="icon" href="%PUBLIC_URL%/favicons.png" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicons.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    <title>Gemasia Antwerpen | Diamond Specialists</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>GEMASIA</title>
+    <!-- Open Graph Meta Tags (for better social sharing) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GEMASIA Antwerpen - Masters in Diamonds, Specialists in Service" />
+    <meta property="og:description" content="Explore high-quality, certified diamonds from GEMASIA Antwerpen, a leader in the global diamond industry." />
+    <meta property="og:image" content="URL_of_image" />
+    <meta property="og:url" content="https://www.yoursite.com" />
+    
+    <!-- Twitter Card Meta Tags (for better Twitter sharing) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GEMASIA Antwerpen | Diamond Specialists" />
+    <meta name="twitter:description" content="Offering the finest certified diamonds, GEMASIA Antwerpen is a trusted name in the global diamond market." />
+    <meta name="twitter:image" content="URL_of_image" />
+    <meta name="twitter:site" content="@gemasia" />
+    
+    
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+     <!-- Schema.org for Google+ (structured data) -->
+     <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "GEMASIA Antwerpen",
+        "url": "https://www.yoursite.com",
+        "logo": "URL_of_logo",
+        "sameAs": [
+          "https://www.facebook.com/gemasiaantwerpen",
+          "https://twitter.com/gemasia",
+          "https://www.instagram.com/gemasiaantwerpen"
+        ]
+      }
+    </script>
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-AOS.init();
-</script>
-<script>
-  // This function will be called when the page loads
-  window.onload = function() {
-      window.scrollTo(0, 0);
-  };
-</script>
+      <script>
+        AOS.init();
+      </script>
+      <script>
+        window.onload = function() {
+            window.scrollTo(0, 0);
+        };
+      </script>
   </body>
-  
 </html>

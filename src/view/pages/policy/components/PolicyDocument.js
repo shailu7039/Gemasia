@@ -12,6 +12,7 @@ import pdf7 from "../../../pdf/Supply Chain policy (2).pdf"
 import pdf8 from "../../../pdf/Supply Chain Reporting 2021.pdf"
 import pdf9 from "../../../pdf/Supply Chain Reporting 2022.pdf"
 import pdf10 from "../../../pdf/Supply Chain Reporting 2023.pdf"
+import pdf11 from "../../../pdf/CCF_000349.pdf"
 export const PolicyDocument = () => {
     const [disclosure ,setdisclosure]=useState(false)
   const handleToggle=()=>{
@@ -19,7 +20,7 @@ export const PolicyDocument = () => {
   }
   const disclosures=[
     {
-      title:"Addendum Supply Chain policy 10.11.21",
+      title:"Addendum Supply Chain policy",
       pdf:pdf
     },
     {
@@ -61,6 +62,10 @@ export const PolicyDocument = () => {
     {
       title:"Supply Chain Reporting 2023",
       pdf:pdf10
+    },
+    {
+      title:"CCF_000349",
+      pdf:pdf11
     },
     // {
     //   title:"Financial results, on conclusion of the meeting of the board of directors where the financial results were approved"

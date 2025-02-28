@@ -7,8 +7,8 @@ export const Contact = () => {
   return (
     <div>
         <Banner/>
-        <ContactAddress/>
-        <ContactForm/>
+        {/* <ContactAddress/> */}
+        <ContactForm />
     </div>
   )
 }

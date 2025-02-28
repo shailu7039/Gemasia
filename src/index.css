@@ -121,6 +121,12 @@ html {
   border-color: #00596d; 
   box-shadow: 0 0 0 1px #00596d;
 }
+.centered-axis-xy-home{
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  transform: translate(-40%,-50%);
+}
 .centered-axis-xy{
   position: absolute;
   left: 50%;
@@ -363,12 +369,29 @@ html {
   .sm-h-250px{
     height: 157px !important;
   }
+  .centered-axis-xy-home{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-24%,-50%);
+  }
+  .centered-axis-about{
+    position: absolute;
+    left: 37%;
+    top: 50%;
+    transform: translate(-31%,-50%);
+  }
+  .sm-direction{
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 @media (min-width:641px) and (max-width:769px)
 {
   .md-h-300px{
     height: 300px;
   }
+  
 }
 @media (min-width:769px){
   .web-hidden{
@@ -410,7 +433,7 @@ html {
   width: 190px;
 }
 .h-130px{
-  height: 130px !important;
+  height: 110px !important;
 }
 .h-270px{
   height: 270px;
@@ -424,4 +447,10 @@ html {
   background: none;
   width: 100%;
   color: white !important;
+}
+.w-webkit{
+  width: -webkit-fill-available;
+}
+.text-hover:hover{
+  color: #003b5d !important;
 }

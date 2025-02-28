@@ -43,10 +43,10 @@ export const ContactForm = () => {
 
   return (
     <div>
-      <div className="lg:px-40 md:px-20 px-5 pb-20 container m-auto">
+      <div className="lg:px-40 md:px-20 px-5 lg:py-20 md:py-10 py-8 container m-auto">
         <div className="lg:flex md:flex gap-10">
           <div className="lg:w-1/2 md:w-1/2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
-            <h2 className="tracking-widest lg:text-3xl md:text-3xl text-2xl">Tell Us Your Message</h2>
+            <h2 className="tracking-widest lg:text-3xl md:text-3xl text-2xl">Tell Us What You Need</h2>
             <form onSubmit={handleSubmit}>
       <div className="pt-5">
         <label className="text-666666">Your Name</label>
@@ -111,14 +111,14 @@ export const ContactForm = () => {
               <p className="lg:text-xl md:text-xl text-lg">Phone</p>
             </div>
             <div className="pt-2">
-              <p className="text-666666"><a href="tel:+32 32327580">Tel:+32 32327580</a></p>
+              <p className="text-666666 text-hover"><a href="tel:+32 32327580">Tel:+32 32327580</a></p>
             </div>
             <div className="flex items-center gap-2 pt-5">
               <MailIcon className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />
               <p className="lg:text-xl md:text-xl text-lg">Email</p>
             </div>
             <div className="pt-2">
-              <p className="text-666666"><a href="mailto:avnit@gemasiagroup.com">avnit@gemasiagroup.com</a></p>
+              <p className="text-666666 text-hover"><a href="mailto:avnit@gemasiagroup.com">avnit@gemasiagroup.com</a></p>
             </div>
           </div>
         </div>
