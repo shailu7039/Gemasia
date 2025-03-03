@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import { Input, Textarea } from "@chakra-ui/react";
 import { Building2, MailIcon, Phone } from "lucide-react";
 // import { Link } from "react-router-dom";
@@ -15,7 +15,7 @@ export const ContactForm = () => {
   
   // State to manage form submission status
   const [status, setStatus] = useState('');
-
+const ref=useRef();
   // Handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -47,7 +47,7 @@ export const ContactForm = () => {
         <div className="lg:flex md:flex gap-10">
           <div className="lg:w-1/2 md:w-1/2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
             <h2 className="tracking-widest lg:text-3xl md:text-3xl text-2xl">Tell Us What You Need</h2>
-            <form onSubmit={handleSubmit}>
+            <form ref={ref} action="" onSubmit={handleSubmit}>
       <div className="pt-5">
         <label className="text-666666">Your Name</label>
         <Input
