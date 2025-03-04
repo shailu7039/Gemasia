@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export const Earrings = () => {
   return (
     <div className='lg:py-10 md:py-10 py-10'>
-        <div className="lg:flex md:flex gap-20 items-center lg:px-40 md:px-40 px-5 m-auto">
+        <div className="lg:flex md:flex gap-20 items-center lg:px-20 md:px-20 px-5 m-auto">
         <div className="lg:w-1/2 md:w-1/2 rounded-md" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
         <div className="">
 
@@ -32,7 +32,7 @@ export const Earrings = () => {
      
     </div>
     <div data-aos="zoom-in" data-aos-duration="3000">
-    <p className="pt-10 text-center lg:text-lg md:text-lg text-base lg:px-0 md:px-0 px-5 ">
+    <p className="pt-10 lg:text-center md:text-center text-justify lg:text-lg md:text-lg text-base lg:px-0 md:px-0 px-5 ">
         With our internal quality assurance and ROOTS traceability program, these diamonds are an ethical, high-value alternative to certified stones.
         </p>
         </div>

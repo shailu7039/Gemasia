@@ -2,11 +2,11 @@ import React from "react";
 
 export const AboutService = () => {
   return (
-    <div className="lg:px-40 md:px-20 px-5 lg:py-8 md:py-10 py-8">
+    <div className="lg:px-20 md:px-20 px-5 lg:py-8 md:py-10 py-8">
       <div data-aos="fade-up"
     //  data-aos-offset="300"
     data-aos-duration="3000">
-        <h2 className="lg:text-2xl md:text-2xl text-2xl font-semibold  ">
+        <h2 className="lg:text-2xl md:text-2xl text-xl font-semibold  ">
           About Gemasia
         </h2>
         {/* <h4 className="">How Can We Help You?</h4> */}

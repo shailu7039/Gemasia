@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 export const Rings = () => {
   return (
-    <div className="lg:flex md:flex lg:gap-20 md:gap-10 gap-5 sm-columndirection justify-center items-center lg:px-40 md:px-40 px-5 m-auto lg:py-10 md:py-10 py-5">
-      <div className="lg:w-1/2 md:w-1/2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+    <div className="lg:flex md:flex lg:gap-20 md:gap-10 gap-5 sm-columndirection justify-center items-center lg:px-20 md:px-20 px-5 m-auto lg:py-10 md:py-10 py-5">
+      <div className="lg:w-1/2 md:w-1/2 lg:pt-0 md:pt-0 pt-5" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
         <h5 className="lg:text-2xl font-semibold">Certified Diamonds</h5>
         {/* <h2 className="lg:text-4xl md:text-2xl text-2xl py-2 font-semibold">
           Rings

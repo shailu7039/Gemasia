@@ -60,7 +60,7 @@ export const ContactForm = () => {
 
   return (
     <div>
-      <div className="lg:px-40 md:px-20 px-5 lg:py-20 md:py-10 py-8 container m-auto">
+      <div className="lg:px-20 md:px-20 px-5 lg:py-20 md:py-10 py-8 container m-auto">
         <div className="lg:flex md:flex gap-10">
           <div
             className="lg:w-1/2 md:w-1/2"
@@ -68,7 +68,7 @@ export const ContactForm = () => {
             data-aos-duration="2000"
             data-aos-delay="200"
           >
-            <h2 className="tracking-widest lg:text-3xl md:text-3xl text-2xl">
+            <h2 className="tracking-widest font-bold lg:text-3xl md:text-3xl text-xl">
               Tell Us What You Need
             </h2>
             <form onSubmit={handleSubmit}>
@@ -136,14 +136,14 @@ export const ContactForm = () => {
             data-aos-delay="200"
           >
             <div>
-              <h2 className="tracking-widest lg:text-3xl md:text-3xl text-2xl">
+              <h2 className="tracking-widest font-bold lg:text-3xl md:text-3xl text-xl">
                 Contact Us
               </h2>
             </div>
             <div className="pt-5">
               <div className="flex items-center gap-2">
                 <Building2 className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />
-                <p className="lg:text-xl md:text-xl text-lg">Address</p>
+                <p className="lg:text-xl md:text-xl text-base">Address</p>
               </div>
               <p className="pt-2 text-666666">
                 Gemasia B.V.B.A Hoveniersstraat 53,<br />
@@ -153,7 +153,7 @@ export const ContactForm = () => {
             </div>
             <div className="flex items-center gap-2 pt-5">
               <Phone className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />
-              <p className="lg:text-xl md:text-xl text-lg">Phone</p>
+              <p className="lg:text-xl md:text-xl text-base">Phone</p>
             </div>
             <div className="pt-2">
               <p className="text-666666 text-hover">
@@ -162,7 +162,7 @@ export const ContactForm = () => {
             </div>
             <div className="flex items-center gap-2 pt-5">
               <MailIcon className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />
-              <p className="lg:text-xl md:text-xl text-lg">Email</p>
+              <p className="lg:text-xl md:text-xl text-base">Email</p>
             </div>
             <div className="pt-2">
               <p className="text-666666 text-hover">

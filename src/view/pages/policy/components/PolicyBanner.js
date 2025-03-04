@@ -29,7 +29,7 @@ export const PolicyBanner = () => {
         />
        </div>
 
-       <div className="centered-axis-xy">
+       <div className="centered-axis-xy w-full">
        <div  data-aos="zoom-in" data-aos-duration="3000">
           <h2 className="lg:text-2xl md:text-xl text-lg text-white text-center tracking-widest uppercase">Policy
           </h2>
@@ -69,7 +69,7 @@ export const PolicyBanner = () => {
         <p data-aos="fade-up"
     //  data-aos-offset="300"
     data-aos-duration="3000"
-     className="lg:text-lg md:text-lg text-base m-auto pt-8 text-center lg:w-2/3 md:w-2/3 lg:px-0 md:px-0 px-5">At Gemasia Antwerpen, we are committed to maintaining the highest standards of quality, ethics, and customer satisfaction. Our policies reflect our dedication to responsible business practices and transparency.
+     className="lg:text-lg md:text-lg text-base m-auto pt-8 lg:text-center md:text-center text-justify lg:w-2/3 md:w-2/3 lg:px-0 md:px-0 px-5">At Gemasia Antwerpen, we are committed to maintaining the highest standards of quality, ethics, and customer satisfaction. Our policies reflect our dedication to responsible business practices and transparency.
         </p>
       </Swiper>
     </div>

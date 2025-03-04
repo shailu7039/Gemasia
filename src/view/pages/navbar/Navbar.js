@@ -72,11 +72,11 @@ export const Navbar = (props) => {
           />
         </Link>
       </div>
-      <div className="flex lg:justify-center md:justify-center justify-between items-center px-10">
-        <div className="web-hidden">
+      <div className="flex lg:justify-center md:justify-center justify-between items-center lg:px-10 md:px-10 px-2">
+        <div className="web-hidden lg:hidden md:hidden block">
           <Link to="/">
             <img
-              className="text-white bg-white object-contain w-100px h-60px"
+              className="text-white bg-white object-contain w-100px h-50px"
               src={logo}
               alt="img"
             />
@@ -86,7 +86,7 @@ export const Navbar = (props) => {
           <MenuIcon onClick={handleShowNavbar} />
         </div>
         <div className={`nav-elements ${showNavbar && "active"} zindex99`}>
-          <div className="lg:flex items-center gap-20">
+          <div className="lg:flex items-center gap-20 lg:pl-0 md:pl-0 pl-5">
             <ul>
               <li>
                 <NavLink to="/" onClick={handleMenuItemClick}>

@@ -2,10 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 export const AllCollection = () => {
   return (
-    <div className='py-10 lg:px-20 md:px-10 px-5'>
+    <div className='py-10 lg:px-20 md:px-20 px-5'>
       <div>
         <div className='lg:flex justify-center items-center gap-10'>
-          <img className='' src={require("../../../assets/images/4ee8a004-05ab-450e-9ab2-b1e3d9c6f156-0_optimized_100.png")} alt='' />
+          <div className='lg:w-1/2 md:w-1/2'>
+          <img className='m-auto w-full' src={require("../../../assets/images/4ee8a004-05ab-450e-9ab2-b1e3d9c6f156-0_optimized_100.png")} alt='' />
+          </div>
           <div className="lg:w-1/2 md:w-1/2 lg:pt-0 md:pt-0 pt-5" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">
             <h5 className="lg:text-2xl font-semibold">Certified Diamonds
             </h5>
@@ -55,10 +57,12 @@ export const AllCollection = () => {
             <Link to="/product-type"><button className="bg-primary px-8 py-2 rounded-md text-white">EXPLORE</button></Link>
           </div>
         </div>
-        <img src={require("../../../assets/images/2_optimized_100.png")} alt='' />
+       <div className='lg:w-1/2 md:w-1/2'>
+       <img className='m-auto w-full' src={require("../../../assets/images/2_optimized_100.png")} alt='' />
+       </div>
        </div>
        <div data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="200">
-       <p className="pt-10 lg:text-lg md:text-lg text-base text-center">
+       <p className="pt-10 lg:text-lg md:text-lg text-base lg:text-center md:text-center text-justify">
             Whether you’re looking for certified or non-certified diamonds, Gemasia Antwerpen ensures a seamless buying experience with personalized service and expert guidance.
           </p>
           </div>
