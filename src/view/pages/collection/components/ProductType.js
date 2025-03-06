@@ -44,7 +44,7 @@ export const ProductType = () => {
       e.preventDefault();
       try {
         const response = await axios.post(
-          `${process.env.REACT_APP_API_URL}send-email`,
+          `${process.env.REACT_APP_API_URL}api/send-email`,
           {
             name: formData.name,
             email: formData.email,
