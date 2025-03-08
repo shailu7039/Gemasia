@@ -31,7 +31,7 @@ export const Earrings = () => {
       </div>
      
     </div>
-    <div data-aos="zoom-in" data-aos-duration="3000">
+    <div data-aos="fade-up" data-aos-duration="3000">
     <p className="pt-10 lg:text-center md:text-center text-justify lg:text-lg md:text-lg text-base lg:px-0 md:px-0 px-5 ">
         With our internal quality assurance and ROOTS traceability program, these diamonds are an ethical, high-value alternative to certified stones.
         </p>

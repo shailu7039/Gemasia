@@ -15,7 +15,7 @@ export const AllCollection = () => {
               Our certified diamonds come with internationally recognized grading reports from leading laboratories such as GIA, HRD, and IGI. Each diamond is meticulously evaluated for its cut, color, clarity, and carat weight, ensuring transparency and trust.
             </p>
             <ul className="pl-5 py-3" style={{ listStyleType: 'disc' }}>
-              <li className="lg:text-lg md:text-lg text-base pb-1">Size Range: 0.08 pts to 3 ct</li>
+              <li className="lg:text-lg md:text-lg text-base pb-1">Size Range: 0.008 pts to 3 ct</li>
               <li className="lg:text-lg md:text-lg text-base pb-1">Colour Spectrum: D to M</li>
               <li className="lg:text-lg md:text-lg text-base pb-1">Clarity Grades: IF to SI2</li>
               <li className="lg:text-lg md:text-lg text-base pb-1">Perfectly Cut Diamonds: Round Brilliant, Fancy Shapes, and Special Cuts on order</li>

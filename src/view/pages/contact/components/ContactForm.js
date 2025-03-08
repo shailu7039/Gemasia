@@ -60,8 +60,8 @@ export const ContactForm = () => {
 
   return (
     <div>
-      <div className="lg:px-20 md:px-20 px-5 lg:py-20 md:py-10 py-8 container m-auto">
-        <div className="lg:flex md:flex gap-10">
+      <div className="container m-auto">
+        <div className="lg:flex md:flex gap-10 ">
           <div
             className="lg:w-1/2 md:w-1/2"
             data-aos="fade-right"
@@ -129,7 +129,7 @@ export const ContactForm = () => {
             </form>
             {status && <p className="pt-5 text-green-500">{status}</p>}
           </div>
-          <div
+       <div
             className="lg:w-1/2 md:w-1/2 lg:pt-0 md:pt-0 pt-10"
             data-aos="fade-left"
             data-aos-duration="2000"
