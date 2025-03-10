@@ -6,13 +6,17 @@ import "../src/view/assets/css/Navbar.css"
 import reportWebVitals from './reportWebVitals';
 import "../src/view/assets/css/tailwind.css"
 import { ChakraProvider } from '@chakra-ui/react'
+import {Provider} from 'react-redux'
+import {store} from './redux/store'
 // import { GlobalWorkerOptions } from 'pdfjs-dist';
 // import pdfWorker from 'pdfjs-dist/build/pdf.worker.entry';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <Provider store={store}>
   <ChakraProvider>
     <App />
   </ChakraProvider>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,6 +1,8 @@
 
-import React,{useState} from 'react'
-import { ArrowDownToLine,Eye,ArrowDown } from 'lucide-react'
+import React from 'react'
+import {Eye } from 'lucide-react'
+import { useSelector,useDispatch } from 'react-redux'
+import { fetchTodos } from '../../../../redux/slice/todo'
 import pdf from "../../../pdf/Addendum Supply Chain policy 10.11.21.pdf"
 import pdf1 from "../../../pdf/Annual Management Report 2021.pdf"
 import pdf2 from "../../../pdf/Annual Management Report 2023.pdf"
@@ -14,10 +16,13 @@ import pdf9 from "../../../pdf/Supply Chain Reporting 2022.pdf"
 import pdf10 from "../../../pdf/Supply Chain Reporting 2023.pdf"
 import pdf11 from "../../../pdf/CCF_000349.pdf"
 export const PolicyDocument = () => {
-    const [disclosure ,setdisclosure]=useState(false)
-  const handleToggle=()=>{
-    setdisclosure(!disclosure)
-  }
+const dispatch=useDispatch();
+const tododata=useSelector((state)=>state);
+console.log('state',tododata)
+    // const [disclosure ,setdisclosure]=useState(false)
+  // const handleToggle=()=>{
+  //   setdisclosure(!disclosure)
+  // }
   const disclosures=[
     {
       title:"Addendum Supply Chain policy",
@@ -74,6 +79,7 @@ export const PolicyDocument = () => {
     //   title:"Complete copy of the annual report including balance sheet, profit and loss account, directors report, corporate governance report etc"
     // },
   ]
+  
   return (
     <div className='lg:px-10 md:px-0 px-5 lg:py-20 md:py-20 py-10 max-w-6xl m-auto' id='DisclosureId'>
         {/* <h2 className='lg:text-3xl md:text-3xl text-2xl uppercase text-center  letterspacing2px'>DISCLOSURES UNDER <br/><span className='font-semibold'>REGULATION 46 OF THE LODR</span></h2> */}
@@ -84,7 +90,8 @@ export const PolicyDocument = () => {
                 <div className='flex gap-5 justify-between borbottom pb-3 pr-3 mb-3'>
               <p className='text-sm text-7a7a7a'>{item.title}</p>
              <div className='flex items-center'>
-              <a href={item.pdf} target='_blank'><Eye className='w-4 h-4 ml-2'/></a>
+              <a href={item.pdf} target='_blank' rel='noreferrer' icon="">
+                <Eye className='w-4 h-4 ml-2'/></a>
              </div>
           </div>
               )
@@ -99,6 +106,16 @@ export const PolicyDocument = () => {
               </div>
             </button>
           </div> */}
+          {/* <button onClick={(e)=>dispatch(fetchTodos())}>get todos</button>
+          {Array.isArray(tododata) ? (
+        tododata.map((item) => (
+          <div key={item.id}>
+            <p>{item.todo}</p>
+          </div>
+        ))
+      ) : (
+        <p>No todos available or still loading</p>
+      )} */}
     </div>
   )
 }
