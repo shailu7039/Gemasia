@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   background-color: #fcfcfc;
 }
 html {
@@ -53,6 +53,9 @@ html {
 }
 .w-180px{
   width: 180px;
+}
+.w-260px{
+  width: 260px;
 }
 .h-180px{
   height: 180px;
@@ -453,4 +456,5 @@ html {
 }
 .text-hover:hover{
   color: #003b5d !important;
+  text-decoration: 1px solid #003b5d underline !important;
 }

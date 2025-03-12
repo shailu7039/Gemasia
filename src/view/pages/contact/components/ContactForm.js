@@ -143,17 +143,35 @@ export const ContactForm = () => {
             <div className="pt-5">
               <div className="flex items-center gap-2">
                 <Building2 className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />
-                <p className="lg:text-xl md:text-xl text-base">Address</p>
+                <h2 className="lg:text-xl md:text-xl text-base">Address</h2>
               </div>
-              <p className="pt-2 text-666666">
+              <p className="pt-2 text-666666 text-hover">
                 Gemasia B.V.B.A Hoveniersstraat 53,<br />
                 Office 314 P.Box 49 2018 <br />
                 Antwerp, Belgium
               </p>
             </div>
+            <div className="pt-5">
+            
+              <h2 className="lg:text-xl md:text-xl text-base">Our Team</h2>
+             <div className="grid gap-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-2  py-3 pl-5">
+             <ul style={{ listStyleType: 'disc' }}>
+              <li className="text-666666 text-hover">Himanshu Shah</li>
+              <li className="text-sm text-666666 text-hover">Managing Director</li>
+              </ul>
+              <ul style={{ listStyleType: 'disc' }}>
+              <li className="text-666666 text-hover">Samir Zaveri</li>
+              <li className="text-sm text-666666 text-hover">Director</li>
+              </ul>
+              <ul style={{ listStyleType: 'disc' }}>
+              <li className="text-666666 text-hover">Avnit Satiya</li>
+              <li className="text-sm text-666666 text-hover">Sales Director</li>
+              </ul>
+             </div>
+            </div>
             <div className="flex items-center gap-2 pt-5">
               <Phone className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />
-              <p className="lg:text-xl md:text-xl text-base">Phone</p>
+              <h2 className="lg:text-xl md:text-xl text-base">Phone</h2>
             </div>
             <div className="pt-2">
               <p className="text-666666 text-hover">
@@ -162,7 +180,7 @@ export const ContactForm = () => {
             </div>
             <div className="flex items-center gap-2 pt-5">
               <MailIcon className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />
-              <p className="lg:text-xl md:text-xl text-base">Email</p>
+              <h2 className="lg:text-xl md:text-xl text-base">Email</h2>
             </div>
             <div className="pt-2">
               <p className="text-666666 text-hover">

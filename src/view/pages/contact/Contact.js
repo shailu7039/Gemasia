@@ -12,7 +12,7 @@ export const Contact = () => {
         <div className='lg:px-20 md:px-20 px-5 lg:py-20 md:py-10 py-8'>
 
         <ContactForm />
-        <OurTeam/>
+        {/* <OurTeam/> */}
         </div>
     </div>
   )
