@@ -5,9 +5,7 @@ body {
   font-family: 'Poppins', sans-serif !important;
   background-color: #fcfcfc;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 /* swiper css open */
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
   font-size: xx-large !important;

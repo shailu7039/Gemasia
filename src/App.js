@@ -12,11 +12,14 @@ import { Policy } from "./view/pages/policy/Policy";
 import { CertifiedDiamond } from "./view/pages/collection/components/CertifiedDiamond";
 import { NonCertifiedDiamond } from "./view/pages/collection/components/NonCertifiedDiamond";
 import { ProductType } from "./view/pages/collection/components/ProductType";
+import ScrollToTop from "./view/pages/ScrollToTop";
 function App() {
   // const[ userlogin,setUserlogin]=useState()
+  
   return (
     <div className="overflow-hidden">
       <Router>
+        <ScrollToTop/>
         <Navbar />
        <div className="lg:pt-40 md:pt-40 pt-12">
        <Routes>

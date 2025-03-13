@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Input, Textarea } from "@chakra-ui/react";
 import { Building2, MailIcon, Phone } from "lucide-react";
 import axios from "axios";
-
+import { Users } from 'lucide-react';
 export const ContactForm = () => {
   // State to manage form inputs
   const [formData, setFormData] = useState({
@@ -152,20 +152,19 @@ export const ContactForm = () => {
               </p>
             </div>
             <div className="pt-5">
-            
-              <h2 className="lg:text-xl md:text-xl text-base">Our Team</h2>
-             <div className="grid gap-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-2  py-3 pl-5">
-             <ul style={{ listStyleType: 'disc' }}>
-              <li className="text-666666 text-hover">Himanshu Shah</li>
-              <li className="text-sm text-666666 text-hover">Managing Director</li>
+           <div className="flex items-center gap-2">
+           <Users className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5"/>
+           <h2 className="lg:text-xl md:text-xl text-base">Our Team</h2>
+           </div>
+             <div className="py-3 ">
+             <ul className="">
+              <li className="text-666666 text-hover">Himanshu Shah (Managing Director)</li>
               </ul>
-              <ul style={{ listStyleType: 'disc' }}>
-              <li className="text-666666 text-hover">Samir Zaveri</li>
-              <li className="text-sm text-666666 text-hover">Director</li>
+              <ul>
+              <li className="text-666666 text-hover py-2">Samir Zaveri (Director)</li>
               </ul>
-              <ul style={{ listStyleType: 'disc' }}>
-              <li className="text-666666 text-hover">Avnit Satiya</li>
-              <li className="text-sm text-666666 text-hover">Sales Director</li>
+              <ul>
+              <li className="text-666666 text-hover">Avnit Satiya (Sales Director)</li>
               </ul>
              </div>
             </div>
