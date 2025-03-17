@@ -158,17 +158,20 @@ export const ContactForm = () => {
            </div>
              <div className="py-3 ">
              <ul className="">
-              <li className="text-666666 text-hover">Himanshu Shah (Managing Director)</li>
+              <li className="text-666666 text-hover pb-2">Himanshu Shah (Managing Director)</li>
               </ul>
               <ul>
-              <li className="text-666666 text-hover py-2">Samir Zaveri (Director)</li>
+              <li className="text-666666 text-hover pb-2">Samir Zaveri (Director)</li>
               </ul>
               <ul>
-              <li className="text-666666 text-hover">Avnit Satiya (Sales Director)</li>
+              <li className="text-666666 text-hover pb-2">Avnit Satiya (Sales Director)</li>
+              </ul>
+              <ul>
+              <li className="text-666666 text-hover">Mactheld cools (Accounting Department And Compliance Officer)</li>
               </ul>
              </div>
             </div>
-            <div className="flex items-center gap-2 pt-5">
+            <div className="flex items-center gap-2 pt-2">
               <Phone className="lg:w-5 md:w-0 w-5 lg:h-5 md:h-0 h-5" />
               <h2 className="lg:text-xl md:text-xl text-base">Phone</h2>
             </div>
@@ -183,7 +186,7 @@ export const ContactForm = () => {
             </div>
             <div className="pt-2">
               <p className="text-666666 text-hover">
-                <a href="mailto:avnit@gemasiagroup.com">avnit@gemasiagroup.com</a>
+                <a href="mailto:info@gemasiagroup.com">info@gemasiagroup.com</a>
               </p>
             </div>
           </div>
