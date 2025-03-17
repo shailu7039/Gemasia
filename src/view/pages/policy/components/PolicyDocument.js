@@ -24,22 +24,22 @@ console.log('state',tododata)
   //   setdisclosure(!disclosure)
   // }
   const disclosures=[
-    {
-      title:"Addendum Supply Chain policy",
-      pdf:pdf
-    },
-    {
-      title:"Annual Management Report 2021",
-      pdf:pdf1
-    },
+    // {
+    //   title:"Addendum Supply Chain policy",
+    //   pdf:pdf
+    // },
+    // {
+    //   title:"Annual Management Report 2021",
+    //   pdf:pdf1
+    // },
     {
       title:"Annual Management Report 2023",
       pdf:pdf2
     },
-    {
-      title:"Annual Management Review 2022",
-      pdf:pdf3
-    },
+    // {
+    //   title:"Annual Management Review 2022",
+    //   pdf:pdf3
+    // },
     {
       title:"GEMASIA - Ethical Sourcing Policy",
       pdf:pdf4
@@ -48,22 +48,22 @@ console.log('state',tododata)
       title:"IDPR Policy",
       pdf:pdf5
     },
-    {
-      title:"Provenance Claim Policy Statement",
-      pdf:pdf6
-    },
-    {
-      title:"Supply Chain policy (2)",
-      pdf:pdf7
-    },
-    {
-      title:"Supply Chain Reporting 2021",
-      pdf:pdf8
-    },
-    {
-      title:"Supply Chain Reporting 2022",
-      pdf:pdf9
-    },
+    // {
+    //   title:"Provenance Claim Policy Statement",
+    //   pdf:pdf6
+    // },
+    // {
+    //   title:"Supply Chain policy (2)",
+    //   pdf:pdf7
+    // },
+    // {
+    //   title:"Supply Chain Reporting 2021",
+    //   pdf:pdf8
+    // },
+    // {
+    //   title:"Supply Chain Reporting 2022",
+    //   pdf:pdf9
+    // },
     {
       title:"Supply Chain Reporting 2023",
       pdf:pdf10
