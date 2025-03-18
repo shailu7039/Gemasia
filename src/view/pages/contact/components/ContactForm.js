@@ -167,7 +167,7 @@ export const ContactForm = () => {
               <li className="text-666666 text-hover pb-2">Avnit Satiya - Sales Director</li>
               </ul>
               <ul>
-              <li className="text-666666 text-hover">Mactheld (Matty) cools - Accounting Department And Compliance Officer</li>
+              <li className="text-666666 text-hover">Machteld (Matty) Cools - Accounting <br/>Department And Compliance Officer</li>
               </ul>
              </div>
             </div>
