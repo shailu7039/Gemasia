@@ -2,21 +2,21 @@
 import React from 'react'
 import {Eye } from 'lucide-react'
 import { useSelector,useDispatch } from 'react-redux'
-import { fetchTodos } from '../../../../redux/slice/todo'
-import pdf from "../../../pdf/Addendum Supply Chain policy 10.11.21.pdf"
-import pdf1 from "../../../pdf/Annual Management Report 2021.pdf"
-import pdf2 from "../../../pdf/Annual Management Report 2023.pdf"
-import pdf3 from "../../../pdf/Annual Management Review 2022.pdf"
-import pdf4 from "../../../pdf/GEMASIA - Ethical Sourcing Policy.pdf"
-import pdf5 from "../../../pdf/IDPR Policy.pdf"
-import pdf6 from "../../../pdf/Provenance Claim Policy Statement.pdf"
-import pdf7 from "../../../pdf/Supply Chain policy (2).pdf"
-import pdf8 from "../../../pdf/Supply Chain Reporting 2021.pdf"
-import pdf9 from "../../../pdf/Supply Chain Reporting 2022.pdf"
-import pdf10 from "../../../pdf/Supply Chain Reporting 2023.pdf"
-import pdf11 from "../../../pdf/CCF_000349.pdf"
+// import { fetchTodos } from '../../../../redux/slice/todo'
+// import pdf from "../../../pdf/Addendum Supply Chain policy 10.11.21.pdf"
+// import pdf1 from "../../../pdf/Annual Management Report 2021.pdf"
+// import pdf2 from "../../../pdf/Annual Management Report 2023.pdf"
+// import pdf3 from "../../../pdf/Annual Management Review 2022.pdf"
+// import pdf4 from "../../../pdf/GEMASIA - Ethical Sourcing Policy.pdf"
+// import pdf5 from "../../../pdf/IDPR Policy.pdf"
+// import pdf6 from "../../../pdf/Provenance Claim Policy Statement.pdf"
+// import pdf7 from "../../../pdf/Supply Chain policy (2).pdf"
+// import pdf8 from "../../../pdf/Supply Chain Reporting 2021.pdf"
+// import pdf9 from "../../../pdf/Supply Chain Reporting 2022.pdf"
+// import pdf10 from "../../../pdf/Supply Chain Reporting 2023.pdf"
+// import pdf11 from "../../../pdf/CCF_000349.pdf"
 export const PolicyDocument = () => {
-const dispatch=useDispatch();
+// const dispatch=useDispatch();
 const tododata=useSelector((state)=>state);
 console.log('state',tododata)
     // const [disclosure ,setdisclosure]=useState(false)
@@ -34,7 +34,7 @@ console.log('state',tododata)
     // },
     {
       title:"Annual Management Report 2023",
-      pdf:pdf2
+      pdf:"https://drive.google.com/file/d/1gX9CFuk4pSKgTTB78QUlquioK5aeSPi7/view?usp=sharing"
     },
     // {
     //   title:"Annual Management Review 2022",
@@ -42,11 +42,11 @@ console.log('state',tododata)
     // },
     {
       title:"GEMASIA - Ethical Sourcing Policy",
-      pdf:pdf4
+      pdf:"https://drive.google.com/file/d/1gdy3bzLrfjNlbq4kZgQ_Eaq96xC4Yyje/view?usp=sharing"
     },
     {
       title:"IDPR Policy",
-      pdf:pdf5
+      pdf:"https://drive.google.com/file/d/1odaDT-xxbStJ4ynGb8VzSOS81R-J2E-y/view?usp=sharing"
     },
     // {
     //   title:"Provenance Claim Policy Statement",
@@ -66,11 +66,11 @@ console.log('state',tododata)
     // },
     {
       title:"Supply Chain Reporting 2023",
-      pdf:pdf10
+      pdf:"https://drive.google.com/file/d/1M1H6h3Lj6Jtmtuk-wBZC7JH16C0f4-GO/view?usp=sharing"
     },
     {
       title:"CCF_000349",
-      pdf:pdf11
+      pdf:"https://drive.google.com/file/d/1wJN2iXlAjJwP98joaZwKX5B_29eD0mR4/view?usp=sharing"
     },
     // {
     //   title:"Financial results, on conclusion of the meeting of the board of directors where the financial results were approved"
@@ -92,6 +92,7 @@ console.log('state',tododata)
              <div className='flex items-center'>
               <a href={item.pdf} target='_blank' rel='noreferrer' icon="">
                 <Eye className='w-4 h-4 ml-2'/></a>
+
              </div>
           </div>
               )
