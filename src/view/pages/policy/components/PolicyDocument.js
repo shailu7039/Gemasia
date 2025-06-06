@@ -69,12 +69,13 @@ console.log('state',tododata)
       pdf:"https://drive.google.com/file/d/1M1H6h3Lj6Jtmtuk-wBZC7JH16C0f4-GO/view?usp=sharing"
     },
     {
-      title:"CCF_000349",
+      title:"Reporting 2025",
       pdf:"https://drive.google.com/file/d/1wJN2iXlAjJwP98joaZwKX5B_29eD0mR4/view?usp=sharing"
     },
-    // {
-    //   title:"Financial results, on conclusion of the meeting of the board of directors where the financial results were approved"
-    // },
+    {
+      title:"Responsible Jewellery Council Certificate",
+      pdf:"https://drive.google.com/file/d/1mTWwCvw6X8T3aR1FyMq_l4knpV3mZ1zR/view?usp=sharing"
+    },
     // {
     //   title:"Complete copy of the annual report including balance sheet, profit and loss account, directors report, corporate governance report etc"
     // },
