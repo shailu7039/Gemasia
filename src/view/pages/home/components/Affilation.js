@@ -40,7 +40,7 @@ export const Affilation = () => {
          <div className='w-260px m-auto'>
          <img
             className="w-260px m-auto"
-            src={require("../../../assets/images/Gem Asia RJC.jpg")}
+            src={require("../../../assets/images/0000 6404 Certified_Member_Logo_EU_US2.jpeg")}
             alt="img"
           />
          </div>

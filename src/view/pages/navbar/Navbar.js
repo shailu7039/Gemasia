@@ -146,6 +146,11 @@ export const Navbar = (props) => {
                   <p className="text-lg tracking-widest">Contact</p>
                 </NavLink>
               </li>
+              <li>
+                <a href="https://kys-gemasia.xss-dns.be/sign-in"  >
+                  <p className="text-lg tracking-widest">Login</p>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
